@@ -60,6 +60,11 @@ body {
   background-repeat: no-repeat, no-repeat;
   background-position: right bottom, left bottom;
   background-color: var(--bg-color);
+  background: url(/images/temp-bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* Headings, etc */
